@@ -24,9 +24,9 @@ export default function Footer() {
     ];
 
     const quickLinks = [
+        { name: "About", href: "#about" },
         { name: "Experience", href: "#experience" },
         { name: "Projects", href: "#projects" },
-        { name: "Tech Stack", href: "#tools" },
     ];
 
     const handleNavClick = (e, href) => {
@@ -82,8 +82,7 @@ export default function Footer() {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="rounded-full border border-zinc-300 bg-zinc-100 p-3 text-zinc-700 transition-all duration-300 hover:scale-110 hover:border-zinc-400 hover:bg-zinc-900 hover:text-white dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:border-zinc-600 dark:hover:bg-white dark:hover:text-zinc-900"
-                                            aria-label={social.name}
-                                        >
+                                            aria-label={social.name}>
                                             <Icon className="h-5 w-5" />
                                         </a>
                                     );
@@ -93,8 +92,7 @@ export default function Footer() {
                                 href={whatsappLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="mt-4 inline-block rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-100"
-                            >
+                                className="mt-4 inline-block rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-100">
                                 Get In Touch
                             </a>
                         </div>

@@ -4,9 +4,8 @@ import { useTheme } from "next-themes";
 import { Moon, Sun, MessageCircle, Briefcase, Wrench, FolderGit2, Home } from "lucide-react";
 
 const navItems = [
-    { name: "Home", href: "#hero", icon: Home },
+    { name: "About", href: "#hero", icon: Home },
     { name: "Experience", href: "#experience", icon: Briefcase },
-    { name: "Tools", href: "#tools", icon: Wrench },
     { name: "Projects", href: "#projects", icon: FolderGit2 },
 ];
 

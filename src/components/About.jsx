@@ -2,9 +2,9 @@
 
 import { Download, Github, Linkedin } from "lucide-react";
 
-export default function Hero() {
+export default function About() {
     return (
-        <section id="hero" className="relative flex min-h-screen items-center overflow-hidden bg-white dark:bg-zinc-950">
+        <section id="about" className="relative flex min-h-screen items-center overflow-hidden bg-white dark:bg-zinc-950">
             {/* Meteor Animation Container - Behind on mobile, beside on desktop */}
             <div className="absolute inset-0 -z-10 md:left-1/2 md:right-0 md:z-0">
                 {/* Meteors */}
