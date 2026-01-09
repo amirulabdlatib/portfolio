@@ -4,7 +4,7 @@ import { Download, Github, Linkedin } from "lucide-react";
 
 export default function About() {
     return (
-        <section id="about" className="relative flex min-h-screen items-center overflow-hidden bg-white dark:bg-zinc-950">
+        <section id="about" className="relative flex min-h-screen items-center overflow-hidden bg-white dark:bg-zinc-950 md:ml-11">
             {/* Meteor Animation Container - Behind on mobile, beside on desktop */}
             <div className="absolute inset-0 -z-10 md:left-1/2 md:right-0 md:z-0">
                 {/* Meteors */}
@@ -33,7 +33,7 @@ export default function About() {
                             </span>
                         </div>
 
-                        <h1 className="animate-fade-in-up text-4xl font-bold leading-tight tracking-tight text-zinc-900 delay-100 sm:text-5xl md:text-6xl lg:text-7xl dark:text-white">Amirul</h1>
+                        <h1 className="animate-fade-in-up text-4xl font-bold leading-tight tracking-tight text-zinc-900 delay-100 sm:text-5xl md:text-6xl lg:text-5xl dark:text-white font-mono">Amirul Abd Latib</h1>
 
                         <div className="animate-fade-in-up delay-200">
                             <div className="overflow-hidden">
