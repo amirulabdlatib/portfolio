@@ -2,7 +2,7 @@ export const experiences = [
     {
         company: "Zanko Sdn Bhd",
         position: "Programmer",
-        period: "August 2024 – Present",
+        period: "August 2025 – Present",
         location: "Onsite",
         responsibilities: [
             "Developed and maintained web applications by building, optimizing, and securing both frontend and backend systems using PHP, JavaScript, and related technologies.",
@@ -13,7 +13,7 @@ export const experiences = [
     {
         company: "BULB Communique Sdn Bhd",
         position: "Web Application Developer (Part-time Contract)",
-        period: "May 2024 – August 2024",
+        period: "May 2025 – August 2025",
         location: "Remote",
         responsibilities: [
             "Maintained, extended, and optimized Laravel, jQuery, MySQL, and Bootstrap web application, while advising on application security and database design best practices.",
@@ -24,7 +24,7 @@ export const experiences = [
     {
         company: "ALPHV TECHNOLOGIES SDN BHD",
         position: "Junior Fullstack Developer",
-        period: "July 2024 – April 2024",
+        period: "July 2024 – April 2025",
         location: "Hybrid",
         responsibilities: [
             "Developed and maintained full-stack web applications using Laravel and MySQL, implementing secure payment integrations and optimizing application performance.",
