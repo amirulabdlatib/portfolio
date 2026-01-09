@@ -4,7 +4,7 @@ import { Download, Github, Linkedin } from "lucide-react";
 
 export default function Hero() {
     return (
-        <section id="hero" className="relative flex min-h-screen items-center overflow-hidden bg-zinc-50 dark:bg-zinc-950">
+        <section id="hero" className="relative flex min-h-screen items-center overflow-hidden bg-white dark:bg-zinc-950">
             {/* Meteor Animation Container - Behind on mobile, beside on desktop */}
             <div className="absolute inset-0 -z-10 md:left-1/2 md:right-0 md:z-0">
                 {/* Meteors */}
@@ -20,7 +20,7 @@ export default function Hero() {
                 <div className="absolute bottom-1/3 right-1/3 h-96 w-96 animate-pulse rounded-full bg-zinc-200/30 blur-3xl delay-1000 dark:bg-zinc-800/30" />
             </div>
 
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 my-32">
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                     <div className="relative z-10 space-y-6 text-center md:space-y-8 md:text-left">
                         <div className="inline-block animate-fade-in">

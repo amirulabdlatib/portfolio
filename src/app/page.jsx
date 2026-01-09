@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <main className="min-h-screen bg-zinc-50 font-sans dark:bg-zinc-950">
+            <main className="min-h-screen">
                 <Hero />
                 <Experience />
                 <Project />
