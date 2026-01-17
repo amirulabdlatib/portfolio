@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import { Moon, Sun, MessageCircle, Briefcase, Wrench, FolderGit2, Home } from "lucide-react";
 
 const navItems = [
-    { name: "About", href: "#hero", icon: Home },
+    { name: "About", href: "#about", icon: Home },
     { name: "Experience", href: "#experience", icon: Briefcase },
     { name: "Projects", href: "#projects", icon: FolderGit2 },
 ];
@@ -49,7 +49,8 @@ export default function Navbar() {
                                     md:px-4 md:py-2 md:gap-2
                                 "
                                 aria-label={item.name}
-                                title={item.name}>
+                                title={item.name}
+                            >
                                 <Icon className="h-5 w-5 md:h-4 md:w-4 opacity-80 group-hover:opacity-100" />
 
                                 {/* Text only on desktop */}
@@ -71,7 +72,8 @@ export default function Navbar() {
                             dark:hover:bg-zinc-800/60
                         "
                         aria-label="Toggle theme"
-                        title="Toggle theme">
+                        title="Toggle theme"
+                    >
                         {theme === "dark" ? <Sun className="h-5 w-5 md:h-4 md:w-4" /> : <Moon className="h-5 w-5 md:h-4 md:w-4" />}
                     </button>
 
@@ -92,7 +94,8 @@ export default function Navbar() {
                             md:px-5 md:py-2 md:gap-2
                         "
                         aria-label="Contact"
-                        title="Contact">
+                        title="Contact"
+                    >
                         <MessageCircle className="h-5 w-5 md:h-4 md:w-4" />
                         <span className="hidden md:inline text-sm font-semibold">Contact</span>
                     </a>
