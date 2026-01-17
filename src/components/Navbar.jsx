@@ -1,7 +1,7 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { Moon, Sun, MessageCircle, Briefcase, Wrench, FolderGit2, Home } from "lucide-react";
+import { Moon, Sun, MessageCircle, Briefcase, FolderGit2, Home } from "lucide-react";
 
 const navItems = [
     { name: "About", href: "#about", icon: Home },
