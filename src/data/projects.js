@@ -41,5 +41,11 @@ export const projects = {
             description: "Built a full-stack financial management system with modular account, transaction, and category management featuring real-time balance synchronization and policy-based access control.",
             techStack: ["Laravel", "Nuxt.js", "Vue.js", "MySQL", "Tailwind CSS", "API Development"],
         },
+        {
+            title: "FoundIt - Lost & Found Community Platform",
+            description:
+                "A learning project focused on mastering Next.js 16 App Router and Laravel API integration. Built a community platform for reporting lost and found items while exploring modern React patterns, server-side pagination, state management with Zustand and TanStack Query, and SPA authentication with Laravel Sanctum.",
+            techStack: ["Next.js 16", "React 19", "Laravel 12", "Laravel Sanctum", "TanStack Query", "TanStack Table", "Zustand", "Tailwind CSS 4", "shadcn/ui", "MySQL"],
+        },
     ],
 };
