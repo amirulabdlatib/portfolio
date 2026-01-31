@@ -6,6 +6,7 @@ export default function robots() {
             {
                 userAgent: "*",
                 allow: "/",
+                disallow: ["/resume.pdf"],
             },
         ],
         sitemap: `${siteUrl}/sitemap.xml`,
