@@ -2,7 +2,7 @@ export const experiences = [
     {
         company: "Zanko Sdn Bhd",
         position: "Programmer",
-        period: "August 2025 – Present",
+        period: "August 2025 – Jan 2026",
         location: "Onsite",
         responsibilities: [
             "Developed and maintained web applications by building, optimizing, and securing both frontend and backend systems using PHP, JavaScript, and related technologies.",
