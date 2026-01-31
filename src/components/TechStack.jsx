@@ -9,7 +9,7 @@ import { techCategories } from "@/data/techCategories";
 
 export default function TechStack() {
     return (
-        <section className="relative bg-zinc-50 py-20 overflow-hidden dark:bg-zinc-900">
+        <section id="tech-stack" className="relative bg-zinc-50 py-20 overflow-hidden dark:bg-zinc-900">
             <div className="absolute inset-0 -z-10">
                 <div className="absolute left-0 top-1/4 h-96 w-96 animate-pulse rounded-full bg-zinc-200/30 blur-3xl dark:bg-zinc-800/30" />
                 <div className="absolute right-0 bottom-1/4 h-96 w-96 animate-pulse rounded-full bg-zinc-300/20 blur-3xl delay-1000 dark:bg-zinc-700/30" />
