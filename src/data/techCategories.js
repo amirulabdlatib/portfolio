@@ -53,6 +53,11 @@ export const techCategories = [
                 logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
             },
             {
+                name: "Inertia.js",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inertiajs/inertiajs-original.svg",
+            },
+
+            {
                 name: "jQuery",
                 logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
             },
@@ -70,12 +75,12 @@ export const techCategories = [
         category: "Backend",
         techs: [
             {
-                name: "Django",
-                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
-            },
-            {
                 name: "Laravel",
                 logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+            },
+            {
+                name: "Django",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
             },
             {
                 name: "FastAPI",
@@ -112,12 +117,20 @@ export const techCategories = [
                 logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
             },
             {
+                name: "Nginx",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
+            },
+            {
                 name: "AWS",
                 logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
             },
             {
                 name: "DigitalOcean",
                 logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
+            },
+            {
+                name: "Cloudflare",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg",
             },
             {
                 name: "Docker",
