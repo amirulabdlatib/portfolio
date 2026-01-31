@@ -30,12 +30,16 @@ export default function TechStack() {
                                 modules={[Autoplay, Pagination]}
                                 spaceBetween={20}
                                 slidesPerView={3}
-                                loop={true}
-                                autoplay={{
-                                    delay: 2500 + categoryIndex * 500,
-                                    disableOnInteraction: false,
-                                    pauseOnMouseEnter: true,
-                                }}
+                                loop={category.techs.length > 7}
+                                autoplay={
+                                    category.techs.length > 3
+                                        ? {
+                                              delay: 2500 + categoryIndex * 500,
+                                              disableOnInteraction: false,
+                                              pauseOnMouseEnter: true,
+                                          }
+                                        : false
+                                }
                                 pagination={{
                                     clickable: true,
                                     dynamicBullets: true,
