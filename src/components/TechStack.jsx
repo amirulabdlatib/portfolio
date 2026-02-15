@@ -9,7 +9,7 @@ import { techCategories } from "@/data/techCategories";
 
 export default function TechStack() {
     return (
-        <section id="tech-stack" className="relative bg-zinc-50 py-20 overflow-hidden dark:bg-zinc-900">
+        <section id="skills" className="relative bg-zinc-50 py-20 overflow-hidden dark:bg-zinc-900">
             <div className="absolute inset-0 -z-10">
                 <div className="absolute left-0 top-1/4 h-96 w-96 animate-pulse rounded-full bg-zinc-200/30 blur-3xl dark:bg-zinc-800/30" />
                 <div className="absolute right-0 bottom-1/4 h-96 w-96 animate-pulse rounded-full bg-zinc-300/20 blur-3xl delay-1000 dark:bg-zinc-700/30" />
@@ -17,7 +17,7 @@ export default function TechStack() {
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-16 text-center">
-                    <h2 className="mb-4 text-4xl font-bold text-zinc-900 sm:text-5xl dark:text-white">Tech Stack</h2>
+                    <h2 className="mb-4 text-4xl font-bold text-zinc-900 sm:text-5xl dark:text-white">Skills</h2>
                     <p className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">Technologies I use to build modern web applications</p>
                 </div>
 

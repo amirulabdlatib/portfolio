@@ -7,7 +7,7 @@ const navItems = [
     { name: "About", href: "#about", icon: Home },
     // { name: "Experience", href: "#experience", icon: Briefcase },
     { name: "Projects", href: "#projects", icon: FolderGit2 },
-    { name: "Tech Stack", href: "#tech-stack", icon: Code2 },
+    { name: "Skills", href: "#skills", icon: Code2 },
 ];
 
 export default function Navbar() {
