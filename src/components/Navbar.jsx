@@ -6,8 +6,8 @@ import { Moon, Sun, MessageCircle, FolderGit2, Home, Code2 } from "lucide-react"
 const navItems = [
     { name: "About", href: "#about", icon: Home },
     // { name: "Experience", href: "#experience", icon: Briefcase },
-    { name: "Projects", href: "#projects", icon: FolderGit2 },
     { name: "Skills", href: "#skills", icon: Code2 },
+    { name: "Projects", href: "#projects", icon: FolderGit2 },
 ];
 
 export default function Navbar() {

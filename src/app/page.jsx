@@ -10,8 +10,8 @@ export default function Home() {
             <Navbar />
             <main className="min-h-screen">
                 <About />
-                <Project />
                 <TechStack />
+                <Project />
             </main>
             <Footer />
         </>
