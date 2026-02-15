@@ -4,13 +4,13 @@ export const projects = {
             title: "AgroTech Management System",
             description:
                 "Developed and maintained a plantation management platform supporting estate operations, worker records, and payroll/tax processing. Implemented backend modules, optimized SQL Server stored procedures, and enhanced reporting workflows for large-scale agricultural data.",
-            techStack: ["Laravel", "Bootstrap", "jQuery", "SQL Server", "MySQL", "Linux"],
+            techStack: ["Laravel", "Bootstrap", "jQuery", "SQL Server", "MySQL", "Linux", "Git", "Gitlab"],
         },
         {
             title: "Healthcare Management System",
             description:
                 "Built and enhanced a healthcare practitioner management platform handling professional records, licensing data, and regulatory workflows. Focused on frontend module development and secure data handling for medical administrative processes.",
-            techStack: ["Vue.js", "CodeIgniter", "MySQL", "PHP", "phpMyAdmin"],
+            techStack: ["Vue.js", "CodeIgniter", "MySQL", "PHP", "phpMyAdmin", "Git", "Gitlab"],
         },
         {
             title: "Law Firm Management System",
