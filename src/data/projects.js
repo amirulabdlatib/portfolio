@@ -1,14 +1,16 @@
 export const projects = {
     professional: [
         {
-            title: "Job Platform System",
-            description: "Built and managed a complete job board platform integrating payment and currency APIs for secure transactions. Deployed and optimized on DigitalOcean with Nginx, achieving 85% SEMrush SEO score.",
-            techStack: ["Laravel", "Livewire", "Filament", "MySQL", "Bootstrap", "GitLab", "Google Analytics", "PHPUnit", "Digital Ocean", "Linux", "Gemini LLM"],
+            title: "AgroTech Management System",
+            description:
+                "Developed and maintained a plantation management platform supporting estate operations, worker records, and payroll/tax processing. Implemented backend modules, optimized SQL Server stored procedures, and enhanced reporting workflows for large-scale agricultural data.",
+            techStack: ["Laravel", "Bootstrap", "jQuery", "SQL Server", "MySQL", "Linux"],
         },
         {
-            title: "Debt Recovery System",
-            description: "Maintained and enhanced a debt management platform through systematic bug fixing, implementing new dashboard features, and creating  software documentation for improved team collaboration.",
-            techStack: ["Laravel", "jQuery", "MySQL", "Bootstrap"],
+            title: "Healthcare Management System",
+            description:
+                "Built and enhanced a healthcare practitioner management platform handling professional records, licensing data, and regulatory workflows. Focused on frontend module development and secure data handling for medical administrative processes.",
+            techStack: ["Vue.js", "CodeIgniter", "MySQL", "PHP", "phpMyAdmin"],
         },
         {
             title: "Law Firm Management System",
@@ -21,7 +23,18 @@ export const projects = {
             description: "Collaborated with stakeholders to gather and implement feature requirements. Worked closely with senior developers to troubleshoot complex bugs and improve system stability and performance.",
             techStack: ["Laravel", "Bootstrap", "jQuery", "MySQL", "GitLab", "Linux", "Digital Ocean"],
         },
+        {
+            title: "Job Platform System",
+            description: "Built and managed a complete job board platform integrating payment and currency APIs for secure transactions. Deployed and optimized on DigitalOcean with Nginx, achieving 85% SEMrush SEO score.",
+            techStack: ["Laravel", "Livewire", "Filament", "MySQL", "Bootstrap", "GitLab", "Google Analytics", "PHPUnit", "Digital Ocean", "Linux", "Gemini LLM"],
+        },
+        {
+            title: "Debt Recovery System",
+            description: "Maintained and enhanced a debt management platform through systematic bug fixing, implementing new dashboard features, and creating software documentation for improved team collaboration.",
+            techStack: ["Laravel", "jQuery", "MySQL", "Bootstrap"],
+        },
     ],
+
     freelance: [
         {
             title: "Room Listing System",
@@ -31,10 +44,11 @@ export const projects = {
         },
         {
             title: "Mental Health Directory System",
-            description: "Migrated existing React application to Next.js for improved performance and SEO. Enhanced codebase with  dark mode implementation and seamless integration with Laravel backend.",
+            description: "Migrated existing React application to Next.js for improved performance and SEO. Enhanced codebase with dark mode implementation and seamless integration with Laravel backend.",
             techStack: ["Next.js", "React", "Laravel", "Tailwind CSS", "API Integration"],
         },
     ],
+
     hobby: [
         {
             title: "Personal Finance Management System",

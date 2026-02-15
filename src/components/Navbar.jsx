@@ -1,13 +1,13 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { Moon, Sun, MessageCircle, Briefcase, FolderGit2, Home, Code2 } from "lucide-react";
+import { Moon, Sun, MessageCircle, FolderGit2, Home, Code2 } from "lucide-react";
 
 const navItems = [
     { name: "About", href: "#about", icon: Home },
-    { name: "Experience", href: "#experience", icon: Briefcase },
-    { name: "Tech Stack", href: "#tech-stack", icon: Code2 },
+    // { name: "Experience", href: "#experience", icon: Briefcase },
     { name: "Projects", href: "#projects", icon: FolderGit2 },
+    { name: "Tech Stack", href: "#tech-stack", icon: Code2 },
 ];
 
 export default function Navbar() {

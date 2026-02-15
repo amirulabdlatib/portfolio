@@ -107,6 +107,10 @@ export const techCategories = [
                 name: "PostgreSQL",
                 logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
             },
+            {
+                name: "SQL Server",
+                logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
+            },
         ],
     },
     {
